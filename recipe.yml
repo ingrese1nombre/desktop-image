@@ -1,11 +1,11 @@
 name: Ingrese un escritorio # Replace this name with your image name
-id: ingrese1escritorio # Replace this ID with your image ID
+id: insert-vanilla # Replace this ID with your image ID
 stages:
 - id: build
   base: ghcr.io/vanilla-os/desktop:main # Optionally, Replace this image URL with a different one i.e. nvidia:main, etc
   singlelayer: false
   labels:
-    maintainer: self-maintained # Optionally, Replace this with your name
+    maintainer: ingrese1nombre # Optionally, Replace this with your name
   args:
     DEBIAN_FRONTEND: noninteractive # Set the image environment as non-interactive
   
