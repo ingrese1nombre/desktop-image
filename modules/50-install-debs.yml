@@ -1,5 +1,6 @@
 name: install-debs
 type: shell
 commands:
+  - dpkg --add-architecture i386
   - bash /deb-pkgs/install-debs.sh
   - rm -rf /deb-pkgs

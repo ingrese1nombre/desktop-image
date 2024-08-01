@@ -1,4 +1,4 @@
-name: Ingrese un escritorio # Replace this name with your image name
+name: [insert a vanilla desktop] # Replace this name with your image name
 id: insert-vanilla # Replace this ID with your image ID
 stages:
 - id: build
